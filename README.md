@@ -11,7 +11,7 @@
 
 ### Connect the Pi to a WiFi network
 
-- Create a file named wpa_supplicant.conf with the desired access points to connect to. Follow the template [here](https://github.com/usmanwardag/demos_pi/blob/main/wpa_supplicant.conf).
+- Create a file named `wpa_supplicant.conf` with the desired access points to connect to. Follow the template [here](https://github.com/usmanwardag/demos_pi/blob/main/wpa_supplicant.conf).
 <img width="463" alt="Screen Shot 2022-02-02 at 12 09 14 PM" src="https://user-images.githubusercontent.com/8848723/152202528-509db9bc-8ed8-4f4f-9daa-3992230b24f3.png">
 
 - Place this file in the root folder of the SD card.
