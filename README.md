@@ -28,7 +28,8 @@
 - Discover host machine’s IP address. Let's say it is `192.168.2.5`. This means that the other devices connected to the same access point will have IP address like `192.168.2.1`, `192.168.2.2`, `192.168.2.3` etc. The notation of this range is `192.168.2.0/24` (covers `192.168.2.0` to `192.168.2.255`).
 - Run this nmap command on the host machine: `sudo nmap –sn 192.168.2.0/24`
 <img width="486" alt="Screen Shot 2022-02-02 at 12 16 07 PM" src="https://user-images.githubusercontent.com/8848723/152203712-ff22d06a-29a8-4fdd-9816-2d4e3d45e09e.png">
-- Run `ssh pi@192.168.182.81`
+
+- Run `ssh pi@192.168.182.81` to connect remotely.
 - The default password is `raspberry`. Run `sudo raspi-config` to set your own password.
 
 
